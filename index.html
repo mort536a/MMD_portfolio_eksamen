@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Mortens Portoflio </title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <audio id="doer" src="door.wav"></audio>
+    <nav class="navbar">
+        <a href="http://www.fuglevik.de/">Home</a>
+        <a href="om.html">Om mig</a>
+        <div class="dropdown">
+            <button class="dropbtn">1. Tema</button>
+            <div class="dropdown-content">
+                <a href="tema1.html">Tema 1 - Grundlæggende HTML</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">2. Tema</button>
+            <div class="dropdown-content">
+                <a href="tema2.html">Tema 2 beskrivelser</a>
+                <a href="http://fuglevik.de/02.01.02_Karakterdesign_mortenfuglevik.pdf">Tema 2 - Animation - Beskrivelse af stil og skitser på karakterdesign</a>
+                <a href="http://fuglevik.de/kea/04-animation/02.01.04_Seduce_simulator_2018_mortenfuglevik/index.html">Tema 2 - Animation - Scene med baggrund og figurer</a>
+                <a href="http://fuglevik.de/kea/04-animation/animation_lyd/lyd_16_04_2018/Lyd/index.html">Tema 2 - Animation - Lydsiden</a>
+                <a href="http://fuglevik.de/02_03_03_Animation_MortenFuglevik.pdf">Tema 2 - Animation - Animations-opgaven</a>
+                <a href="http://fuglevik.de/kea/02-animation/projekt/index.html">Tema 2 - Animation - Endelig aflevering</a><br> <br>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">3. Tema</button>
+            <div class="dropdown-content">
+                <a href="tema3.html">Tema 3 beskrivelser</a>
+                <a href="https://www.youtube.com/watch?v=uefDdi4kxuc&feature=youtu.be">Tema 3 - Grundlæggende Video CPH DOX</a>
+                <a href="kea/03-content/03-redesign/docs/index.html">Tema 3 - Redesign af hjemmeside</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">4. Tema</button>
+            <div class="dropdown-content">
+                <a href="tema4.html">Tema 4 beskrivelse</a>
+                <a href="http://fuglevik.de/kea/04-ux/01-bruger/app.html">Tema 4 - Grundlæggende UX - Opgavebeskrivelse KEA app</a>
+                <a href="https://xd.adobe.com/view/1b14b5ab-58d4-404a-6120-d9290bc1a540-6d25/">Tema 4 - Grundlæggende UX - Præsentation af KEA app</a>
+            </div>
+        </div>
+    </nav>
+    <div id="doer_container">
+        <div id="doer_lukket"></div>
+    </div>
+    <div id="designmig">
+        <picture>
+            <source media="(min-width: 1920px)" srcset="frontimage.png">
+            <source media="(min-width: 1024px)" srcset="frontimagetablet.jpg">
+            <source media="(min-width: 768px)" srcset="frontimagetablet768.jpg">
+            <source media="(min-width: 627px)" srcset="frontimagetablet627.jpg">
+            <source media="(min-width: 375px)" srcset="frontimagetablet375.jpg">
+            <img src="frontimagetablet375.jpg" alt="mobilhaha">
+        </picture>
+    </div>
+    <div id="doeren">
+        <img src="doer_venstre.png" id="left_door"></img>
+        <img src="doer_hoejre.png" id="right_door"></img>
+    </div>
+    <br>
+
+    <p></p>
+
+    <p>Portfolio-websitet er en studieportfolio som skal præsentere de projekter du har arbejdet med i løbet af semestret. Det er IKKE en professionelt portfolio. Sitets design bør også tages i betragtning, da det er en form for “visuel kommunikation” i sig selv.</p>
+    <p>
+        Websites skal være responsivt. Det skal håndkodes i HTML/CSS og JAVASCRIPT/JQUERY, dvs. der må IKKE bruges andre frameworks som f.eks. bootstrap. Portfolio-websitet, skal minimum indeholde:</p>
+    <p>
+        ● En forside/Front page <br> ● Et CV / ”om mig” side<br> ● Din Portfolio - en eller flere sider, der præsenterer dine opgaver fra semestret.</p>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
